@@ -1,9 +1,6 @@
 services:
   database:
-    build:
-      context: .
-      dockerfile: .docker/database/Dockerfile
-    image: cookbook-db
+    image: postgres:17-alpine
     container_name: cookbook-db
     environment:
       TZ: ${TIMEZONE}
@@ -14,14 +11,11 @@ services:
     ports:
       - 7777:5432
     volumes:
-      - .docker/database/volumes/data:/var/lib/postgresql/data
-    networks:
-      - cookbook-network
+      - .docker/volumes/data:/var/lib/postgresql/data
 
   api:
     build:
       context: .
-      dockerfile: .docker/server/Dockerfile
     image: cookbook-api
     container_name: cookbook-api
     environment:
@@ -29,13 +23,7 @@ services:
     ports:
       - 7776:80
     volumes:
-      - ./api:/var/www/html
-    networks:
-      - cookbook-network
+      - ./:/var/www/html
+    entrypoint: ["./entrypoint.sh"]
     depends_on:
       - database
-
-networks:
-  cookbook-network:
-    name: cookbook-network
-    driver: bridge
