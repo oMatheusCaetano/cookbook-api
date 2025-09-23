@@ -1,0 +1,41 @@
+services:
+  database:
+    build:
+      context: .
+      dockerfile: .docker/database/Dockerfile
+    image: cookbook-db
+    container_name: cookbook-db
+    environment:
+      TZ: ${TIMEZONE}
+      PGTZ: ${TIMEZONE}
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_DATABASE}
+    ports:
+      - 7777:5432
+    volumes:
+      - .docker/database/volumes/data:/var/lib/postgresql/data
+    networks:
+      - cookbook-network
+
+  api:
+    build:
+      context: .
+      dockerfile: .docker/server/Dockerfile
+    image: cookbook-api
+    container_name: cookbook-api
+    environment:
+      - TZ=${TIMEZONE}
+    ports:
+      - 7776:80
+    volumes:
+      - ./api:/var/www/html
+    networks:
+      - cookbook-network
+    depends_on:
+      - database
+
+networks:
+  cookbook-network:
+    name: cookbook-network
+    driver: bridge
