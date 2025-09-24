@@ -8,6 +8,12 @@ use Tests\TestCase;
 
 class LoginTest extends TestCase
 {
+    public function setUp(): void
+    {
+        parent::setUp();
+        Artisan::call('migrate:fresh --seed --seeder=UserSeeder');
+    }
+
     public function makeRequest(array $data = []): \Illuminate\Testing\TestResponse
     {
         return $this->post('/api/auth/login', $data, [
@@ -33,7 +39,6 @@ class LoginTest extends TestCase
 
     public function test_should_login_successfully(): void
     {
-        Artisan::call('migrate:fresh');
         $payload = [ 'email' => 'usuarioteste@email.com', 'password' => '123456789' ];
         $response = $this->makeRequest($payload);
         $response->assertStatus(Response::HTTP_OK);

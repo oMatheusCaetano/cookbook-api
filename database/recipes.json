@@ -1,0 +1,1767 @@
+[
+  {
+    "name": "Arroz Cozido",
+    "description": "Arroz soltinho e bem temperado, perfeito como acompanhamento.",
+    "prep_time": "30 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "200g de arroz"},
+      {"description": "500ml de água"},
+      {"description": "1 colher de chá de sal"},
+      {"description": "1 colher de sopa de óleo"}
+    ],
+    "steps": [
+      {"description": "Lave o arroz em água corrente."},
+      {"description": "Aqueça o óleo em uma panela e refogue o arroz por 1 minuto."},
+      {"description": "Adicione a água e o sal, deixe cozinhar em fogo baixo até secar."}
+    ]
+  },
+  {
+    "name": "Bolo de Chocolate",
+    "description": "Bolo de chocolate macio e úmido, ideal para sobremesas.",
+    "prep_time": "60 minutos",
+    "servings": "8 Pessoas",
+    "ingredients": [
+      {"description": "200g de farinha de trigo"},
+      {"description": "200g de açúcar"},
+      {"description": "100g de chocolate em pó"},
+      {"description": "3 ovos"},
+      {"description": "100ml de leite"},
+      {"description": "1 colher de sopa de fermento em pó"}
+    ],
+    "steps": [
+      {"description": "Misture os ingredientes secos em uma tigela."},
+      {"description": "Adicione os ovos e o leite, misturando até formar uma massa homogênea."},
+      {"description": "Despeje em uma forma untada e leve ao forno a 180°C por 35 minutos."}
+    ]
+  },
+  {
+    "name": "Torta de Morango",
+    "description": "Torta doce com creme e morangos frescos, ideal para lanches.",
+    "prep_time": "50 minutos",
+    "servings": "6 Pessoas",
+    "ingredients": [
+      {"description": "200g de massa folhada"},
+      {"description": "250g de morangos"},
+      {"description": "200ml de creme de leite"},
+      {"description": "2 colheres de sopa de açúcar"}
+    ],
+    "steps": [
+      {"description": "Forre a forma com a massa folhada."},
+      {"description": "Prepare o creme e despeje sobre a massa."},
+      {"description": "Decore com morangos fatiados e leve à geladeira por 30 minutos."}
+    ]
+  },
+  {
+    "name": "Pão Caseiro",
+    "description": "Pão macio e fresco, feito em casa com fermento biológico.",
+    "prep_time": "180 minutos",
+    "servings": "10 Pessoas",
+    "ingredients": [
+      {"description": "500g de farinha de trigo"},
+      {"description": "300ml de água morna"},
+      {"description": "10g de fermento biológico seco"},
+      {"description": "1 colher de chá de sal"}
+    ],
+    "steps": [
+      {"description": "Misture o fermento na água morna e deixe ativar por 10 minutos."},
+      {"description": "Adicione a farinha e o sal, sovando até formar uma massa homogênea."},
+      {"description": "Deixe descansar por 1 hora e depois asse a 200°C por 35 minutos."}
+    ]
+  },
+  {
+    "name": "Lasanha de Frango",
+    "description": "Lasanha cremosa com frango desfiado, molho branco e queijo gratinado.",
+    "prep_time": "90 minutos",
+    "servings": "6 Pessoas",
+    "ingredients": [
+      {"description": "500g de massa para lasanha"},
+      {"description": "300g de frango cozido e desfiado"},
+      {"description": "300ml de molho branco"},
+      {"description": "200g de queijo mussarela"}
+    ],
+    "steps": [
+      {"description": "Monte camadas alternando massa, frango e molho branco."},
+      {"description": "Finalize com queijo mussarela por cima."},
+      {"description": "Leve ao forno a 180°C por 30 minutos."}
+    ]
+  },
+  {
+    "name": "Feijoada",
+    "description": "Prato tradicional brasileiro com feijão preto e carnes variadas.",
+    "prep_time": "120 minutos",
+    "servings": "6 Pessoas",
+    "ingredients": [
+      {"description": "500g de feijão preto"},
+      {"description": "200g de carne seca"},
+      {"description": "200g de linguiça"},
+      {"description": "100g de bacon"},
+      {"description": "1 cebola picada"},
+      {"description": "2 dentes de alho picados"}
+    ],
+    "steps": [
+      {"description": "Cozinhe o feijão até ficar macio."},
+      {"description": "Refogue as carnes com cebola e alho."},
+      {"description": "Misture ao feijão e deixe cozinhar por 40 minutos."}
+    ]
+  },
+  {
+    "name": "Moqueca Baiana",
+    "description": "Prato típico de peixe cozido com leite de coco e azeite de dendê.",
+    "prep_time": "60 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "500g de peixe em postas"},
+      {"description": "200ml de leite de coco"},
+      {"description": "1 cebola picada"},
+      {"description": "1 pimentão picado"},
+      {"description": "Azeite de dendê a gosto"}
+    ],
+    "steps": [
+      {"description": "Refogue cebola e pimentão no azeite de dendê."},
+      {"description": "Adicione o peixe e cozinhe por 10 minutos."},
+      {"description": "Junte o leite de coco e cozinhe por mais 10 minutos."}
+    ]
+  },
+  {
+    "name": "Panqueca de Carne",
+    "description": "Panquecas recheadas com carne moída temperada.",
+    "prep_time": "45 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "200g de farinha de trigo"},
+      {"description": "2 ovos"},
+      {"description": "300ml de leite"},
+      {"description": "300g de carne moída"},
+      {"description": "1 cebola picada"}
+    ],
+    "steps": [
+      {"description": "Prepare a massa misturando ovos, leite e farinha."},
+      {"description": "Refogue a carne com cebola e temperos."},
+      {"description": "Recheie as panquecas e leve ao forno por 15 minutos."}
+    ]
+  },
+  {
+    "name": "Quiche de Legumes",
+    "description": "Quiche cremosa recheada com legumes variados e queijo.",
+    "prep_time": "50 minutos",
+    "servings": "6 Pessoas",
+    "ingredients": [
+      {"description": "1 massa para torta"},
+      {"description": "200g de brócolis"},
+      {"description": "100g de cenoura ralada"},
+      {"description": "3 ovos"},
+      {"description": "200ml de creme de leite"},
+      {"description": "100g de queijo ralado"}
+    ],
+    "steps": [
+      {"description": "Forre a forma com a massa."},
+      {"description": "Misture os legumes com ovos, creme e queijo."},
+      {"description": "Despeje na forma e asse por 30 minutos a 180°C."}
+    ]
+  },
+  {
+    "name": "Salada Caesar",
+    "description": "Salada fresca com alface, frango grelhado, croutons e molho Caesar.",
+    "prep_time": "20 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "1 maço de alface romana"},
+      {"description": "200g de peito de frango grelhado"},
+      {"description": "50g de queijo parmesão ralado"},
+      {"description": "Croutons a gosto"},
+      {"description": "Molho Caesar a gosto"}
+    ],
+    "steps": [
+      {"description": "Lave e rasgue a alface."},
+      {"description": "Grelhe o frango e corte em tiras."},
+      {"description": "Misture todos os ingredientes e adicione o molho."}
+    ]
+  },
+  {
+    "name": "Risoto de Camarão",
+    "description": "Risoto cremoso de camarão, ideal para jantares especiais.",
+    "prep_time": "50 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "200g de arroz arbóreo"},
+      {"description": "300g de camarões limpos"},
+      {"description": "1 cebola picada"},
+      {"description": "500ml de caldo de legumes"},
+      {"description": "50g de queijo parmesão ralado"}
+    ],
+    "steps": [
+      {"description": "Refogue a cebola e acrescente o arroz."},
+      {"description": "Adicione o caldo aos poucos até o arroz cozinhar."},
+      {"description": "Misture os camarões e finalize com parmesão."}
+    ]
+  },
+  {
+    "name": "Espaguete à Bolonhesa",
+    "description": "Massa italiana com molho à base de carne moída e tomate.",
+    "prep_time": "40 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "300g de espaguete"},
+      {"description": "300g de carne moída"},
+      {"description": "2 tomates picados"},
+      {"description": "1 cebola picada"},
+      {"description": "2 dentes de alho picados"}
+    ],
+    "steps": [
+      {"description": "Cozinhe o espaguete conforme instruções da embalagem."},
+      {"description": "Refogue cebola, alho e carne moída."},
+      {"description": "Adicione os tomates e cozinhe até formar o molho. Sirva com a massa."}
+    ]
+  },
+  {
+    "name": "Frango ao Curry",
+    "description": "Frango macio cozido com especiarias indianas e leite de coco.",
+    "prep_time": "45 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "500g de peito de frango"},
+      {"description": "200ml de leite de coco"},
+      {"description": "2 colheres de sopa de curry"},
+      {"description": "1 cebola picada"},
+      {"description": "2 dentes de alho picados"}
+    ],
+    "steps": [
+      {"description": "Refogue cebola e alho, adicione o curry."},
+      {"description": "Acrescente o frango e cozinhe até dourar."},
+      {"description": "Junte o leite de coco e cozinhe até o molho engrossar."}
+    ]
+  },
+  {
+    "name": "Sushi Simples",
+    "description": "Sushi caseiro com arroz temperado e peixe fresco.",
+    "prep_time": "60 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "200g de arroz para sushi"},
+      {"description": "200ml de vinagre de arroz"},
+      {"description": "200g de salmão fresco"},
+      {"description": "Alga nori"}
+    ],
+    "steps": [
+      {"description": "Cozinhe o arroz e tempere com vinagre."},
+      {"description": "Corte o salmão em tiras."},
+      {"description": "Monte o sushi sobre a alga e enrole."}
+    ]
+  },
+  {
+    "name": "Cuscuz Nordestino",
+    "description": "Cuscuz macio, servido no café da manhã ou como acompanhamento.",
+    "prep_time": "20 minutos",
+    "servings": "3 Pessoas",
+    "ingredients": [
+      {"description": "200g de flocos de milho"},
+      {"description": "200ml de água"},
+      {"description": "1 colher de chá de sal"}
+    ],
+    "steps": [
+      {"description": "Misture os flocos de milho com sal e água."},
+      {"description": "Cozinhe no cuscuzeiro por 15 minutos."},
+      {"description": "Sirva quente com manteiga se desejar."}
+    ]
+  },
+  {
+    "name": "Bobó de Camarão",
+    "description": "Prato cremoso com camarão e mandioca, típico da Bahia.",
+    "prep_time": "60 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "300g de camarões limpos"},
+      {"description": "300g de mandioca cozida"},
+      {"description": "200ml de leite de coco"},
+      {"description": "1 cebola picada"},
+      {"description": "Azeite de dendê a gosto"}
+    ],
+    "steps": [
+      {"description": "Refogue cebola no azeite de dendê."},
+      {"description": "Adicione a mandioca e amasse até formar um purê."},
+      {"description": "Misture os camarões e o leite de coco. Cozinhe por 10 minutos."}
+    ]
+  },
+  {
+    "name": "Quibe Assado",
+    "description": "Quibe crocante por fora e macio por dentro, assado no forno.",
+    "prep_time": "50 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "250g de trigo para quibe"},
+      {"description": "300g de carne moída"},
+      {"description": "1 cebola picada"},
+      {"description": "Salsinha e hortelã a gosto"}
+    ],
+    "steps": [
+      {"description": "Hidrate o trigo e misture com a carne e temperos."},
+      {"description": "Coloque em forma untada e leve ao forno a 180°C por 35 minutos."}
+    ]
+  },
+  {
+    "name": "Escondidinho de Carne Seca",
+    "description": "Purê de mandioca com carne seca desfiada, gratinado com queijo.",
+    "prep_time": "60 minutos",
+    "servings": "5 Pessoas",
+    "ingredients": [
+      {"description": "400g de carne seca cozida e desfiada"},
+      {"description": "500g de mandioca cozida e amassada"},
+      {"description": "100g de queijo ralado"},
+      {"description": "1 cebola picada"}
+    ],
+    "steps": [
+      {"description": "Refogue a carne seca com cebola."},
+      {"description": "Coloque uma camada de purê, uma de carne e finalize com purê e queijo."},
+      {"description": "Leve ao forno a 200°C por 20 minutos."}
+    ]
+  },
+  {
+    "name": "Crepe de Nutella",
+    "description": "Crepe doce recheado com Nutella e frutas.",
+    "prep_time": "30 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "100g de farinha de trigo"},
+      {"description": "2 ovos"},
+      {"description": "200ml de leite"},
+      {"description": "Nutella a gosto"},
+      {"description": "Frutas fatiadas"}
+    ],
+    "steps": [
+      {"description": "Misture farinha, ovos e leite até formar uma massa líquida."},
+      {"description": "Cozinhe a massa em frigideira antiaderente."},
+      {"description": "Recheie com Nutella e frutas, dobre e sirva."}
+    ]
+  },
+  {
+    "name": "Bacalhau à Brás",
+    "description": "Prato português com bacalhau desfiado, batata palha e ovos mexidos.",
+    "prep_time": "45 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "300g de bacalhau dessalgado e desfiado"},
+      {"description": "200g de batata palha"},
+      {"description": "3 ovos"},
+      {"description": "1 cebola picada"},
+      {"description": "Salsinha a gosto"}
+    ],
+    "steps": [
+      {"description": "Refogue a cebola, adicione o bacalhau e cozinhe por alguns minutos."},
+      {"description": "Acrescente os ovos batidos e misture até cozinhar."},
+      {"description": "Finalize com batata palha e salsinha."}
+    ]
+  },
+  {
+    "name": "Espaguete ao Alho e Óleo",
+    "description": "Massa italiana simples, refogada com alho e azeite.",
+    "prep_time": "20 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "200g de espaguete"},
+      {"description": "3 dentes de alho fatiados"},
+      {"description": "3 colheres de sopa de azeite"},
+      {"description": "Sal a gosto"},
+      {"description": "Salsinha a gosto"}
+    ],
+    "steps": [
+      {"description": "Cozinhe o espaguete conforme instruções da embalagem."},
+      {"description": "Refogue o alho no azeite até dourar."},
+      {"description": "Misture o espaguete ao alho e finalize com salsinha."}
+    ]
+  },
+  {
+    "name": "Peixe Assado com Ervas",
+    "description": "Peixe assado no forno temperado com ervas frescas e limão.",
+    "prep_time": "40 minutos",
+    "servings": "3 Pessoas",
+    "ingredients": [
+      {"description": "1 peixe inteiro limpo"},
+      {"description": "2 dentes de alho picados"},
+      {"description": "Suco de 1 limão"},
+      {"description": "Ervas frescas a gosto"},
+      {"description": "Sal e pimenta a gosto"}
+    ],
+    "steps": [
+      {"description": "Tempere o peixe com alho, limão, ervas, sal e pimenta."},
+      {"description": "Coloque em forma untada e leve ao forno a 200°C por 30 minutos."},
+      {"description": "Sirva quente com acompanhamento de sua preferência."}
+    ]
+  },
+  {
+    "name": "Strogonoff de Frango",
+    "description": "Frango cremoso ao molho de creme de leite e ketchup, típico prato brasileiro.",
+    "prep_time": "35 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "500g de peito de frango em cubos"},
+      {"description": "1 cebola picada"},
+      {"description": "200ml de creme de leite"},
+      {"description": "3 colheres de sopa de ketchup"},
+      {"description": "1 colher de sopa de mostarda"}
+    ],
+    "steps": [
+      {"description": "Refogue o frango com cebola até dourar."},
+      {"description": "Adicione ketchup e mostarda e cozinhe por 5 minutos."},
+      {"description": "Acrescente o creme de leite e misture bem antes de servir."}
+    ]
+  },
+  {
+    "name": "Bobó de Frango",
+    "description": "Prato cremoso com frango desfiado e purê de mandioca.",
+    "prep_time": "50 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "400g de frango cozido e desfiado"},
+      {"description": "300g de mandioca cozida"},
+      {"description": "200ml de leite de coco"},
+      {"description": "1 cebola picada"},
+      {"description": "Azeite de dendê a gosto"}
+    ],
+    "steps": [
+      {"description": "Refogue a cebola no azeite de dendê."},
+      {"description": "Misture a mandioca amassada e cozinhe por alguns minutos."},
+      {"description": "Adicione o frango e o leite de coco. Cozinhe por 10 minutos."}
+    ]
+  },
+  {
+    "name": "Caldo Verde",
+    "description": "Sopa portuguesa com couve, batata e chouriço.",
+    "prep_time": "40 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "300g de batata"},
+      {"description": "200g de couve fatiada"},
+      {"description": "100g de chouriço"},
+      {"description": "1 cebola picada"},
+      {"description": "2 dentes de alho picados"}
+    ],
+    "steps": [
+      {"description": "Cozinhe a batata e bata até formar um purê."},
+      {"description": "Refogue a cebola e alho, adicione o purê e água até formar a sopa."},
+      {"description": "Acrescente o chouriço e a couve, cozinhando por mais 10 minutos."}
+    ]
+  },
+  {
+    "name": "Omelete de Queijo",
+    "description": "Omelete simples, macia e recheada com queijo.",
+    "prep_time": "15 minutos",
+    "servings": "1 Pessoa",
+    "ingredients": [
+      {"description": "2 ovos"},
+      {"description": "50g de queijo ralado"},
+      {"description": "Sal e pimenta a gosto"},
+      {"description": "1 colher de chá de manteiga"}
+    ],
+    "steps": [
+      {"description": "Bata os ovos com sal e pimenta."},
+      {"description": "Aqueça a manteiga na frigideira e despeje os ovos."},
+      {"description": "Quando começar a firmar, adicione o queijo e dobre a omelete."}
+    ]
+  },
+  {
+    "name": "Creme de Cenoura",
+    "description": "Sopa cremosa de cenoura, perfeita para dias frios.",
+    "prep_time": "30 minutos",
+    "servings": "3 Pessoas",
+    "ingredients": [
+      {"description": "400g de cenoura"},
+      {"description": "1 cebola picada"},
+      {"description": "500ml de caldo de legumes"},
+      {"description": "Sal e pimenta a gosto"}
+    ],
+    "steps": [
+      {"description": "Cozinhe a cenoura e cebola no caldo de legumes até amolecer."},
+      {"description": "Bata no liquidificador até obter creme homogêneo."},
+      {"description": "Aqueça novamente e ajuste o sal e a pimenta."}
+    ]
+  },
+  {
+    "name": "Macarrão com Molho Pesto",
+    "description": "Massa italiana com molho de manjericão, alho, queijo e azeite.",
+    "prep_time": "25 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "200g de macarrão"},
+      {"description": "50g de manjericão fresco"},
+      {"description": "2 colheres de sopa de queijo parmesão"},
+      {"description": "1 dente de alho"},
+      {"description": "3 colheres de sopa de azeite"}
+    ],
+    "steps": [
+      {"description": "Cozinhe o macarrão conforme instruções da embalagem."},
+      {"description": "Bata o manjericão, alho, parmesão e azeite no processador."},
+      {"description": "Misture o molho ao macarrão cozido e sirva."}
+    ]
+  },
+  {
+    "name": "Arroz de Forno com Frango",
+    "description": "Prato simples com arroz, frango e queijo gratinado.",
+    "prep_time": "40 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "200g de arroz cozido"},
+      {"description": "300g de frango desfiado"},
+      {"description": "100g de queijo ralado"},
+      {"description": "1 tomate picado"},
+      {"description": "1/2 cebola picada"}
+    ],
+    "steps": [
+      {"description": "Misture todos os ingredientes em um refratário."},
+      {"description": "Polvilhe o queijo por cima."},
+      {"description": "Leve ao forno a 180°C por 15 minutos."}
+    ]
+  },
+  {
+    "name": "Salpicão de Frango",
+    "description": "Salada fria de frango desfiado com legumes e maionese.",
+    "prep_time": "30 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "300g de frango cozido e desfiado"},
+      {"description": "1 cenoura ralada"},
+      {"description": "100g de milho"},
+      {"description": "50g de uva passa"},
+      {"description": "3 colheres de sopa de maionese"}
+    ],
+    "steps": [
+      {"description": "Misture todos os ingredientes em uma tigela."},
+      {"description": "Ajuste o sal e a maionese."},
+      {"description": "Leve à geladeira por 30 minutos antes de servir."}
+    ]
+  },
+  {
+    "name": "Espetinho de Carne",
+    "description": "Carne temperada e grelhada em espetos, ideal para churrasco.",
+    "prep_time": "40 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "500g de carne bovina em cubos"},
+      {"description": "Sal a gosto"},
+      {"description": "Pimenta do reino a gosto"},
+      {"description": "Palitos de churrasco"}
+    ],
+    "steps": [
+      {"description": "Tempere a carne com sal e pimenta."},
+      {"description": "Monte os espetos alternando carne e legumes se desejar."},
+      {"description": "Grelhe em churrasqueira ou frigideira até dourar."}
+    ]
+  },
+  {
+    "name": "Camarão na Moranga",
+    "description": "Camarão cremoso servido dentro de uma moranga assada.",
+    "prep_time": "60 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "1 moranga média"},
+      {"description": "300g de camarões limpos"},
+      {"description": "200ml de creme de leite"},
+      {"description": "1 cebola picada"},
+      {"description": "Azeite a gosto"}
+    ],
+    "steps": [
+      {"description": "Asse a moranga até ficar macia."},
+      {"description": "Refogue camarões com cebola e azeite, acrescente creme de leite."},
+      {"description": "Coloque o recheio dentro da moranga e sirva."}
+    ]
+  },
+  {
+    "name": "Bife à Milanesa",
+    "description": "Bifes empanados e fritos até ficarem dourados e crocantes.",
+    "prep_time": "35 minutos",
+    "servings": "3 Pessoas",
+    "ingredients": [
+      {"description": "3 bifes de carne bovina"},
+      {"description": "2 ovos"},
+      {"description": "50g de farinha de trigo"},
+      {"description": "50g de farinha de rosca"},
+      {"description": "Sal e pimenta a gosto"}
+    ],
+    "steps": [
+      {"description": "Tempere os bifes com sal e pimenta."},
+      {"description": "Passe na farinha de trigo, ovos batidos e farinha de rosca."},
+      {"description": "Frite em óleo quente até dourar."}
+    ]
+  },
+  {
+    "name": "Macarrão Carbonara",
+    "description": "Massa italiana com molho cremoso de ovos, queijo e bacon.",
+    "prep_time": "25 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "200g de espaguete"},
+      {"description": "2 ovos"},
+      {"description": "50g de queijo parmesão ralado"},
+      {"description": "100g de bacon em cubos"},
+      {"description": "Sal e pimenta a gosto"}
+    ],
+    "steps": [
+      {"description": "Cozinhe o espaguete e reserve um pouco da água do cozimento."},
+      {"description": "Frite o bacon até dourar."},
+      {"description": "Misture ovos e queijo e incorpore ao macarrão quente, mexendo rapidamente."}
+    ]
+  },
+  {
+    "name": "Farofa de Banana",
+    "description": "Farofa crocante com pedaços de banana, perfeita como acompanhamento.",
+    "prep_time": "20 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "200g de farinha de mandioca"},
+      {"description": "2 bananas fatiadas"},
+      {"description": "1 colher de sopa de manteiga"},
+      {"description": "Sal a gosto"}
+    ],
+    "steps": [
+      {"description": "Derreta a manteiga em uma panela e adicione as bananas."},
+      {"description": "Acrescente a farinha de mandioca e misture bem."},
+      {"description": "Tempere com sal e sirva quente."}
+    ]
+  },
+  {
+    "name": "Frango Assado com Batatas",
+    "description": "Frango temperado e assado junto com batatas douradas.",
+    "prep_time": "90 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "1 frango inteiro"},
+      {"description": "4 batatas médias cortadas"},
+      {"description": "3 dentes de alho"},
+      {"description": "Sal, pimenta e ervas a gosto"}
+    ],
+    "steps": [
+      {"description": "Tempere o frango com sal, pimenta, alho e ervas."},
+      {"description": "Coloque em assadeira com batatas ao redor."},
+      {"description": "Asse a 200°C por 1 hora ou até dourar."}
+    ]
+  },
+  {
+    "name": "Sopa de Legumes",
+    "description": "Sopa nutritiva com diversos legumes, perfeita para dias frios.",
+    "prep_time": "40 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "2 cenouras"},
+      {"description": "2 batatas"},
+      {"description": "1 abobrinha"},
+      {"description": "1 cebola"},
+      {"description": "1 litro de caldo de legumes"}
+    ],
+    "steps": [
+      {"description": "Corte todos os legumes em cubos."},
+      {"description": "Cozinhe no caldo de legumes até ficarem macios."},
+      {"description": "Bata no liquidificador para obter creme e ajuste o sal."}
+    ]
+  },
+  {
+    "name": "Espaguete à Puttanesca",
+    "description": "Massa com molho de tomate, azeitonas e alcaparras, sabor intenso.",
+    "prep_time": "30 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "200g de espaguete"},
+      {"description": "2 tomates picados"},
+      {"description": "50g de azeitonas pretas"},
+      {"description": "1 colher de sopa de alcaparras"},
+      {"description": "2 dentes de alho picados"}
+    ],
+    "steps": [
+      {"description": "Cozinhe o espaguete conforme instruções da embalagem."},
+      {"description": "Refogue alho, adicione tomate, azeitonas e alcaparras."},
+      {"description": "Misture a massa com o molho e sirva."}
+    ]
+  },
+  {
+    "name": "Tapioca Recheada",
+    "description": "Tapioca crocante recheada com queijo ou frutas.",
+    "prep_time": "15 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "100g de goma de tapioca"},
+      {"description": "50g de queijo coalho ou frutas"},
+      {"description": "Manteiga a gosto"}
+    ],
+    "steps": [
+      {"description": "Aqueça a frigideira e espalhe a goma uniformemente."},
+      {"description": "Cozinhe por 1-2 minutos, vire e adicione o recheio."},
+      {"description": "Dobre a tapioca e sirva quente."}
+    ]
+  },
+  {
+    "name": "Escondidinho de Frango",
+    "description": "Purê de mandioca cobrindo frango desfiado temperado e gratinado com queijo.",
+    "prep_time": "60 minutos",
+    "servings": "5 Pessoas",
+    "ingredients": [
+      {"description": "400g de frango cozido e desfiado"},
+      {"description": "500g de mandioca cozida e amassada"},
+      {"description": "100g de queijo ralado"},
+      {"description": "1 cebola picada"},
+      {"description": "2 dentes de alho picados"}
+    ],
+    "steps": [
+      {"description": "Refogue o frango com cebola e alho."},
+      {"description": "Coloque uma camada de purê de mandioca, depois o frango e cubra com purê."},
+      {"description": "Polvilhe queijo e leve ao forno a 200°C por 20 minutos."}
+    ]
+  },
+  {
+    "name": "Bolo de Cenoura com Cobertura de Chocolate",
+    "description": "Bolo macio de cenoura com cobertura cremosa de chocolate.",
+    "prep_time": "50 minutos",
+    "servings": "8 Pessoas",
+    "ingredients": [
+      {"description": "3 cenouras médias"},
+      {"description": "3 ovos"},
+      {"description": "200g de açúcar"},
+      {"description": "200g de farinha de trigo"},
+      {"description": "1 colher de sopa de fermento em pó"},
+      {"description": "100g de chocolate em pó para cobertura"}
+    ],
+    "steps": [
+      {"description": "Bata as cenouras, ovos e açúcar no liquidificador."},
+      {"description": "Misture com a farinha e o fermento, despeje em forma untada."},
+      {"description": "Asse a 180°C por 35 minutos e cubra com chocolate derretido."}
+    ]
+  },
+  {
+    "name": "Panqueca de Queijo e Presunto",
+    "description": "Panquecas recheadas com queijo e presunto, simples e rápidas.",
+    "prep_time": "30 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "200g de farinha de trigo"},
+      {"description": "2 ovos"},
+      {"description": "200ml de leite"},
+      {"description": "100g de presunto fatiado"},
+      {"description": "100g de queijo fatiado"}
+    ],
+    "steps": [
+      {"description": "Misture farinha, ovos e leite até formar massa líquida."},
+      {"description": "Cozinhe a massa na frigideira e recheie com presunto e queijo."},
+      {"description": "Dobre e sirva quente."}
+    ]
+  },
+  {
+    "name": "Peito de Frango Grelhado",
+    "description": "Frango simples, temperado e grelhado, ótimo para refeições leves.",
+    "prep_time": "25 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "2 peitos de frango"},
+      {"description": "Sal e pimenta a gosto"},
+      {"description": "Suco de 1 limão"},
+      {"description": "1 colher de sopa de azeite"}
+    ],
+    "steps": [
+      {"description": "Tempere o frango com sal, pimenta e limão."},
+      {"description": "Grelhe em frigideira com azeite até dourar ambos os lados."},
+      {"description": "Sirva quente acompanhado de salada."}
+    ]
+  },
+  {
+    "name": "Sopa de Abóbora",
+    "description": "Sopa cremosa de abóbora com temperos simples.",
+    "prep_time": "35 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "500g de abóbora picada"},
+      {"description": "1 cebola picada"},
+      {"description": "500ml de caldo de legumes"},
+      {"description": "Sal e pimenta a gosto"}
+    ],
+    "steps": [
+      {"description": "Refogue a cebola, acrescente a abóbora e cozinhe no caldo."},
+      {"description": "Bata no liquidificador até formar creme homogêneo."},
+      {"description": "Ajuste o sal e a pimenta antes de servir."}
+    ]
+  },
+  {
+    "name": "Filé de Peixe ao Molho de Limão",
+    "description": "Filé de peixe grelhado com molho cítrico de limão e ervas.",
+    "prep_time": "30 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "2 filés de peixe"},
+      {"description": "Suco de 1 limão"},
+      {"description": "1 colher de sopa de manteiga"},
+      {"description": "Sal e pimenta a gosto"},
+      {"description": "Ervas frescas a gosto"}
+    ],
+    "steps": [
+      {"description": "Tempere o peixe com sal, pimenta e limão."},
+      {"description": "Grelhe o peixe em frigideira com manteiga."},
+      {"description": "Finalize com ervas frescas e sirva."}
+    ]
+  },
+  {
+    "name": "Salada de Grão-de-Bico",
+    "description": "Salada refrescante com grão-de-bico, legumes e temperos leves.",
+    "prep_time": "20 minutos",
+    "servings": "3 Pessoas",
+    "ingredients": [
+      {"description": "200g de grão-de-bico cozido"},
+      {"description": "1 tomate picado"},
+      {"description": "1/2 cebola picada"},
+      {"description": "Salsinha e cebolinha a gosto"},
+      {"description": "Azeite e limão para temperar"}
+    ],
+    "steps": [
+      {"description": "Misture todos os ingredientes em uma tigela."},
+      {"description": "Tempere com azeite e limão."},
+      {"description": "Sirva gelada."}
+    ]
+  },
+  {
+    "name": "Purê de Batata",
+    "description": "Purê cremoso e macio, acompanhamento clássico.",
+    "prep_time": "25 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "500g de batatas"},
+      {"description": "50g de manteiga"},
+      {"description": "100ml de leite"},
+      {"description": "Sal e noz-moscada a gosto"}
+    ],
+    "steps": [
+      {"description": "Cozinhe as batatas até ficarem macias."},
+      {"description": "Amasse as batatas, acrescente manteiga e leite."},
+      {"description": "Misture até obter consistência cremosa e tempere."}
+    ]
+  },
+  {
+    "name": "Crepe de Frango",
+    "description": "Crepes recheados com frango desfiado e molho cremoso.",
+    "prep_time": "35 minutos",
+    "servings": "3 Pessoas",
+    "ingredients": [
+      {"description": "100g de farinha de trigo"},
+      {"description": "1 ovo"},
+      {"description": "100ml de leite"},
+      {"description": "200g de frango cozido e desfiado"},
+      {"description": "50ml de molho branco"}
+    ],
+    "steps": [
+      {"description": "Misture farinha, ovo e leite para formar massa de crepe."},
+      {"description": "Cozinhe os crepes na frigideira."},
+      {"description": "Recheie com frango e molho branco, dobre e sirva."}
+    ]
+  },
+  {
+    "name": "Mousse de Maracujá",
+    "description": "Sobremesa cremosa e azedinha de maracujá.",
+    "prep_time": "25 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "1 lata de leite condensado"},
+      {"description": "1 lata de creme de leite"},
+      {"description": "1 lata de suco de maracujá concentrado"}
+    ],
+    "steps": [
+      {"description": "Bata todos os ingredientes no liquidificador até ficar cremoso."},
+      {"description": "Leve à geladeira por 2 horas antes de servir."},
+      {"description": "Decore com sementes de maracujá se desejar."}
+    ]
+  },
+  {
+    "name": "Cuscuz Paulista",
+    "description": "Prato típico brasileiro feito com farinha de milho, legumes e frango.",
+    "prep_time": "40 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "200g de farinha de milho"},
+      {"description": "200g de frango cozido e desfiado"},
+      {"description": "1 cenoura picada"},
+      {"description": "1/2 cebola picada"},
+      {"description": "100g de ervilhas"},
+      {"description": "2 colheres de sopa de óleo"}
+    ],
+    "steps": [
+      {"description": "Refogue a cebola, cenoura e frango no óleo."},
+      {"description": "Acrescente a farinha de milho e misture bem."},
+      {"description": "Adicione água e cozinhe até secar. Acrescente ervilhas e misture."}
+    ]
+  },
+  {
+    "name": "Camarão ao Alho e Óleo",
+    "description": "Camarões refogados rapidamente no alho e azeite, sabor intenso.",
+    "prep_time": "20 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "300g de camarão limpo"},
+      {"description": "3 dentes de alho picados"},
+      {"description": "3 colheres de sopa de azeite"},
+      {"description": "Sal e pimenta a gosto"},
+      {"description": "Salsinha picada a gosto"}
+    ],
+    "steps": [
+      {"description": "Aqueça o azeite e refogue o alho."},
+      {"description": "Acrescente os camarões e cozinhe até ficarem rosados."},
+      {"description": "Tempere com sal, pimenta e finalize com salsinha."}
+    ]
+  },
+  {
+    "name": "Torta de Frango",
+    "description": "Torta salgada com recheio de frango cremoso e massa macia.",
+    "prep_time": "60 minutos",
+    "servings": "6 Pessoas",
+    "ingredients": [
+      {"description": "1 massa para torta"},
+      {"description": "400g de frango cozido e desfiado"},
+      {"description": "1 cebola picada"},
+      {"description": "200ml de creme de leite"},
+      {"description": "100g de queijo ralado"}
+    ],
+    "steps": [
+      {"description": "Refogue o frango com cebola e creme de leite."},
+      {"description": "Forre a forma com a massa, adicione o recheio e cubra com massa."},
+      {"description": "Polvilhe queijo e leve ao forno a 180°C por 35 minutos."}
+    ]
+  },
+  {
+    "name": "Peito de Frango ao Molho de Laranja",
+    "description": "Frango grelhado com molho cítrico de laranja e mel.",
+    "prep_time": "35 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "2 peitos de frango"},
+      {"description": "Suco de 1 laranja"},
+      {"description": "1 colher de sopa de mel"},
+      {"description": "Sal e pimenta a gosto"},
+      {"description": "1 colher de sopa de azeite"}
+    ],
+    "steps": [
+      {"description": "Tempere o frango com sal e pimenta."},
+      {"description": "Grelhe o frango em frigideira com azeite."},
+      {"description": "Misture suco de laranja e mel e adicione sobre o frango antes de servir."}
+    ]
+  },
+  {
+    "name": "Lasanha à Bolonhesa",
+    "description": "Lasanha com camadas de carne moída, molho de tomate e queijo gratinado.",
+    "prep_time": "90 minutos",
+    "servings": "6 Pessoas",
+    "ingredients": [
+      {"description": "500g de massa para lasanha"},
+      {"description": "300g de carne moída"},
+      {"description": "300ml de molho de tomate"},
+      {"description": "200g de queijo mussarela"},
+      {"description": "1 cebola picada"},
+      {"description": "2 dentes de alho picados"}
+    ],
+    "steps": [
+      {"description": "Refogue a carne com cebola e alho, adicione o molho de tomate."},
+      {"description": "Monte camadas de massa, carne e queijo em um refratário."},
+      {"description": "Finalize com queijo por cima e leve ao forno a 180°C por 30 minutos."}
+    ]
+  },
+  {
+    "name": "Panqueca de Espinafre",
+    "description": "Panquecas verdes recheadas com ricota e espinafre.",
+    "prep_time": "40 minutos",
+    "servings": "3 Pessoas",
+    "ingredients": [
+      {"description": "200g de farinha de trigo"},
+      {"description": "2 ovos"},
+      {"description": "200ml de leite"},
+      {"description": "150g de espinafre cozido e picado"},
+      {"description": "100g de ricota"}
+    ],
+    "steps": [
+      {"description": "Misture farinha, ovos e leite para a massa."},
+      {"description": "Cozinhe a massa na frigideira."},
+      {"description": "Recheie com espinafre e ricota, dobre e sirva."}
+    ]
+  },
+  {
+    "name": "Creme de Milho",
+    "description": "Sopa cremosa de milho verde, rápida e saborosa.",
+    "prep_time": "25 minutos",
+    "servings": "3 Pessoas",
+    "ingredients": [
+      {"description": "2 espigas de milho"},
+      {"description": "200ml de leite"},
+      {"description": "1 colher de sopa de manteiga"},
+      {"description": "Sal e pimenta a gosto"}
+    ],
+    "steps": [
+      {"description": "Retire o milho das espigas e bata no liquidificador com leite."},
+      {"description": "Cozinhe no fogo baixo com manteiga até engrossar."},
+      {"description": "Tempere com sal e pimenta e sirva quente."}
+    ]
+  },
+  {
+    "name": "Arroz à Grega",
+    "description": "Arroz colorido com legumes, ideal como acompanhamento leve.",
+    "prep_time": "30 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "200g de arroz"},
+      {"description": "1 cenoura picada"},
+      {"description": "50g de ervilhas"},
+      {"description": "50g de milho"},
+      {"description": "1 colher de sopa de óleo"}
+    ],
+    "steps": [
+      {"description": "Refogue o arroz no óleo, adicione legumes e água."},
+      {"description": "Cozinhe até secar a água e o arroz ficar macio."},
+      {"description": "Sirva quente como acompanhamento."}
+    ]
+  },
+  {
+    "name": "Suflê de Queijo",
+    "description": "Suflê leve e aerado, feito com queijo e ovos.",
+    "prep_time": "45 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "3 ovos"},
+      {"description": "100g de queijo ralado"},
+      {"description": "50ml de leite"},
+      {"description": "1 colher de sopa de manteiga"},
+      {"description": "Sal e pimenta a gosto"}
+    ],
+    "steps": [
+      {"description": "Separe claras e gemas."},
+      {"description": "Misture gemas com leite e queijo, bata as claras em neve e incorpore delicadamente."},
+      {"description": "Leve ao forno a 180°C por 25 minutos até crescer e dourar."}
+    ]
+  },
+  {
+    "name": "Torta de Legumes",
+    "description": "Torta salgada recheada com diversos legumes refogados.",
+    "prep_time": "50 minutos",
+    "servings": "6 Pessoas",
+    "ingredients": [
+      {"description": "1 massa para torta"},
+      {"description": "200g de cenoura"},
+      {"description": "100g de abobrinha"},
+      {"description": "1 cebola picada"},
+      {"description": "3 ovos"},
+      {"description": "200ml de creme de leite"}
+    ],
+    "steps": [
+      {"description": "Refogue os legumes, misture com ovos e creme de leite."},
+      {"description": "Forre a forma com massa, adicione o recheio e cubra com massa."},
+      {"description": "Asse a 180°C por 30 minutos até dourar."}
+    ]
+  },
+  {
+    "name": "Filé de Salmão Grelhado",
+    "description": "Salmão fresco grelhado com temperos simples, perfeito para refeições leves.",
+    "prep_time": "25 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "2 filés de salmão"},
+      {"description": "Suco de 1 limão"},
+      {"description": "Sal e pimenta a gosto"},
+      {"description": "1 colher de sopa de azeite"}
+    ],
+    "steps": [
+      {"description": "Tempere os filés com limão, sal e pimenta."},
+      {"description": "Grelhe em frigideira com azeite até dourar ambos os lados."},
+      {"description": "Sirva quente com acompanhamento de sua preferência."}
+    ]
+  },
+  {
+    "name": "Bobó de Camarão",
+    "description": "Camarão cozido com purê de mandioca e leite de coco, típico da Bahia.",
+    "prep_time": "60 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "300g de camarão limpo"},
+      {"description": "300g de mandioca cozida"},
+      {"description": "200ml de leite de coco"},
+      {"description": "1 cebola picada"},
+      {"description": "Azeite de dendê a gosto"}
+    ],
+    "steps": [
+      {"description": "Refogue cebola no azeite de dendê."},
+      {"description": "Misture a mandioca amassada e cozinhe por alguns minutos."},
+      {"description": "Adicione os camarões e o leite de coco. Cozinhe por 10 minutos."}
+    ]
+  },
+  {
+    "name": "Canelone de Ricota",
+    "description": "Massa de canelone recheada com ricota e espinafre, coberta com molho branco.",
+    "prep_time": "50 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "200g de massa para canelone"},
+      {"description": "150g de ricota"},
+      {"description": "100g de espinafre cozido e picado"},
+      {"description": "200ml de molho branco"},
+      {"description": "50g de queijo ralado"}
+    ],
+    "steps": [
+      {"description": "Recheie os canelones com ricota e espinafre."},
+      {"description": "Coloque em refratário, cubra com molho branco e queijo."},
+      {"description": "Leve ao forno a 180°C por 25 minutos."}
+    ]
+  },
+  {
+    "name": "Crepe de Presunto e Queijo",
+    "description": "Crepes finos recheados com presunto e queijo, rápidos e saborosos.",
+    "prep_time": "25 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "100g de farinha de trigo"},
+      {"description": "1 ovo"},
+      {"description": "100ml de leite"},
+      {"description": "50g de presunto fatiado"},
+      {"description": "50g de queijo fatiado"}
+    ],
+    "steps": [
+      {"description": "Misture farinha, ovo e leite até formar massa líquida."},
+      {"description": "Cozinhe na frigideira formando crepes finos."},
+      {"description": "Recheie com presunto e queijo e dobre antes de servir."}
+    ]
+  },
+  {
+    "name": "Lasanha de Berinjela",
+    "description": "Lasanha saudável usando berinjela no lugar da massa, com molho de tomate e queijo.",
+    "prep_time": "60 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "2 berinjelas médias"},
+      {"description": "300ml de molho de tomate"},
+      {"description": "150g de queijo mussarela"},
+      {"description": "100g de queijo parmesão"},
+      {"description": "Manjericão fresco a gosto"}
+    ],
+    "steps": [
+      {"description": "Corte as berinjelas em fatias e grelhe."},
+      {"description": "Monte camadas de berinjela, molho e queijo."},
+      {"description": "Finalize com parmesão e asse a 180°C por 30 minutos."}
+    ]
+  },
+  {
+    "name": "Salada Caprese",
+    "description": "Salada italiana com tomate, mussarela e manjericão, regada com azeite.",
+    "prep_time": "15 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "2 tomates"},
+      {"description": "150g de mussarela de búfala"},
+      {"description": "Folhas de manjericão fresco"},
+      {"description": "Azeite a gosto"},
+      {"description": "Sal e pimenta a gosto"}
+    ],
+    "steps": [
+      {"description": "Fatie os tomates e a mussarela."},
+      {"description": "Intercale fatias de tomate e mussarela em prato."},
+      {"description": "Adicione folhas de manjericão, azeite, sal e pimenta."}
+    ]
+  },
+  {
+    "name": "Peito de Frango Recheado com Queijo e Presunto",
+    "description": "Peito de frango recheado, assado e servido com molho de tomate.",
+    "prep_time": "50 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "2 peitos de frango"},
+      {"description": "50g de presunto"},
+      {"description": "50g de queijo mussarela"},
+      {"description": "1 colher de sopa de azeite"},
+      {"description": "Sal e pimenta a gosto"}
+    ],
+    "steps": [
+      {"description": "Abra os peitos de frango, recheie com presunto e queijo e feche."},
+      {"description": "Tempere e asse a 180°C por 30 minutos."},
+      {"description": "Sirva com molho de tomate por cima."}
+    ]
+  },
+  {
+    "name": "Strogonoff de Carne",
+    "description": "Carne ao molho cremoso de creme de leite, ketchup e mostarda, prato clássico brasileiro.",
+    "prep_time": "35 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "500g de carne bovina em cubos"},
+      {"description": "1 cebola picada"},
+      {"description": "200ml de creme de leite"},
+      {"description": "3 colheres de sopa de ketchup"},
+      {"description": "1 colher de sopa de mostarda"}
+    ],
+    "steps": [
+      {"description": "Refogue a carne com cebola até dourar."},
+      {"description": "Adicione ketchup e mostarda, cozinhe por 5 minutos."},
+      {"description": "Misture o creme de leite e sirva quente."}
+    ]
+  },
+  {
+    "name": "Sopa de Lentilha",
+    "description": "Sopa nutritiva de lentilhas com legumes e temperos.",
+    "prep_time": "40 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "200g de lentilhas"},
+      {"description": "1 cenoura picada"},
+      {"description": "1 cebola picada"},
+      {"description": "2 dentes de alho picados"},
+      {"description": "1 litro de água"}
+    ],
+    "steps": [
+      {"description": "Refogue cebola e alho, adicione legumes e lentilha."},
+      {"description": "Cozinhe em água até que as lentilhas estejam macias."},
+      {"description": "Tempere com sal e pimenta e sirva quente."}
+    ]
+  },
+  {
+    "name": "Camarão ao Molho de Coco",
+    "description": "Camarão cremoso com leite de coco e temperos leves, típico da cozinha brasileira.",
+    "prep_time": "35 minutos",
+    "servings": "3 Pessoas",
+    "ingredients": [
+      {"description": "300g de camarões limpos"},
+      {"description": "200ml de leite de coco"},
+      {"description": "1 cebola picada"},
+      {"description": "2 colheres de sopa de azeite"},
+      {"description": "Sal e pimenta a gosto"}
+    ],
+    "steps": [
+      {"description": "Refogue a cebola no azeite."},
+      {"description": "Adicione os camarões e cozinhe até ficarem rosados."},
+      {"description": "Acrescente o leite de coco e cozinhe por mais 5 minutos antes de servir."}
+    ]
+  },
+  {
+    "name": "Torta de Chocolate",
+    "description": "Torta cremosa de chocolate com massa crocante, ideal para sobremesas.",
+    "prep_time": "60 minutos",
+    "servings": "8 Pessoas",
+    "ingredients": [
+      {"description": "200g de biscoito triturado"},
+      {"description": "100g de manteiga derretida"},
+      {"description": "200g de chocolate meio amargo"},
+      {"description": "200ml de creme de leite"},
+      {"description": "2 ovos"}
+    ],
+    "steps": [
+      {"description": "Misture o biscoito triturado com manteiga e forre a forma."},
+      {"description": "Derreta o chocolate, misture com creme de leite e ovos."},
+      {"description": "Despeje sobre a base de biscoito e leve à geladeira por 2 horas."}
+    ]
+  },
+  {
+    "name": "Espaguete ao Molho de Tomate",
+    "description": "Massa italiana com molho simples de tomate fresco e manjericão.",
+    "prep_time": "25 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "200g de espaguete"},
+      {"description": "3 tomates maduros picados"},
+      {"description": "1 dente de alho picado"},
+      {"description": "2 colheres de sopa de azeite"},
+      {"description": "Folhas de manjericão a gosto"}
+    ],
+    "steps": [
+      {"description": "Cozinhe o espaguete conforme instruções da embalagem."},
+      {"description": "Refogue alho no azeite, adicione tomates e cozinhe até formar molho."},
+      {"description": "Misture a massa ao molho e finalize com manjericão."}
+    ]
+  },
+  {
+    "name": "Bife Acebolado",
+    "description": "Bife grelhado com cebolas caramelizadas, acompanhamento clássico.",
+    "prep_time": "30 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "2 bifes de carne bovina"},
+      {"description": "1 cebola fatiada"},
+      {"description": "2 colheres de sopa de óleo"},
+      {"description": "Sal e pimenta a gosto"}
+    ],
+    "steps": [
+      {"description": "Tempere os bifes com sal e pimenta."},
+      {"description": "Grelhe os bifes em frigideira com óleo."},
+      {"description": "Refogue as cebolas até dourarem e sirva sobre os bifes."}
+    ]
+  },
+  {
+    "name": "Panqueca de Banana",
+    "description": "Panqueca doce com banana, rápida e nutritiva.",
+    "prep_time": "20 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "100g de farinha de trigo"},
+      {"description": "1 ovo"},
+      {"description": "100ml de leite"},
+      {"description": "1 banana fatiada"},
+      {"description": "Mel a gosto"}
+    ],
+    "steps": [
+      {"description": "Misture farinha, ovo e leite para a massa."},
+      {"description": "Cozinhe a massa na frigideira, adicione fatias de banana."},
+      {"description": "Dobre e sirva com mel."}
+    ]
+  },
+  {
+    "name": "Coxinha de Frango",
+    "description": "Salgado brasileiro recheado com frango desfiado, empanado e frito.",
+    "prep_time": "90 minutos",
+    "servings": "6 Pessoas",
+    "ingredients": [
+      {"description": "500g de frango cozido e desfiado"},
+      {"description": "250g de farinha de trigo"},
+      {"description": "500ml de caldo de frango"},
+      {"description": "2 ovos"},
+      {"description": "Farinha de rosca para empanar"},
+      {"description": "Óleo para fritar"}
+    ],
+    "steps": [
+      {"description": "Misture a farinha com caldo de frango até formar massa."},
+      {"description": "Modele a massa recheando com frango."},
+      {"description": "Passe na farinha de rosca, nos ovos e frite em óleo quente."}
+    ]
+  },
+  {
+    "name": "Pavê de Chocolate",
+    "description": "Sobremesa em camadas com biscoitos e creme de chocolate.",
+    "prep_time": "40 minutos",
+    "servings": "6 Pessoas",
+    "ingredients": [
+      {"description": "200g de biscoitos de leite"},
+      {"description": "200g de chocolate meio amargo"},
+      {"description": "200ml de creme de leite"},
+      {"description": "50g de açúcar"}
+    ],
+    "steps": [
+      {"description": "Derreta o chocolate com creme de leite."},
+      {"description": "Monte camadas alternando biscoitos e creme de chocolate."},
+      {"description": "Leve à geladeira por 2 horas antes de servir."}
+    ]
+  },
+  {
+    "name": "Risoto de Cogumelos",
+    "description": "Risoto cremoso com cogumelos frescos, ideal para pratos sofisticados.",
+    "prep_time": "45 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "200g de arroz arbóreo"},
+      {"description": "150g de cogumelos frescos fatiados"},
+      {"description": "1 cebola picada"},
+      {"description": "500ml de caldo de legumes"},
+      {"description": "50g de queijo parmesão ralado"}
+    ],
+    "steps": [
+      {"description": "Refogue a cebola e os cogumelos."},
+      {"description": "Adicione o arroz e vá acrescentando caldo aos poucos."},
+      {"description": "Finalize com queijo parmesão ralado."}
+    ]
+  },
+  {
+    "name": "Escondidinho de Carne Moída",
+    "description": "Purê de batata cobrindo carne moída temperada e gratinada.",
+    "prep_time": "50 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "400g de batata cozida e amassada"},
+      {"description": "300g de carne moída"},
+      {"description": "1 cebola picada"},
+      {"description": "100g de queijo ralado"},
+      {"description": "Sal e pimenta a gosto"}
+    ],
+    "steps": [
+      {"description": "Refogue a carne moída com cebola e temperos."},
+      {"description": "Coloque uma camada de purê, depois a carne e finalize com purê e queijo."},
+      {"description": "Leve ao forno a 200°C por 20 minutos."}
+    ]
+  },
+  {
+    "name": "Sopa de Abobrinha",
+    "description": "Sopa leve e cremosa de abobrinha, ideal para refeições rápidas.",
+    "prep_time": "30 minutos",
+    "servings": "3 Pessoas",
+    "ingredients": [
+      {"description": "3 abobrinhas picadas"},
+      {"description": "1 cebola picada"},
+      {"description": "500ml de caldo de legumes"},
+      {"description": "Sal e pimenta a gosto"}
+    ],
+    "steps": [
+      {"description": "Cozinhe abobrinha e cebola no caldo de legumes até ficarem macias."},
+      {"description": "Bata no liquidificador até formar creme."},
+      {"description": "Ajuste o sal e pimenta antes de servir."}
+    ]
+  },
+  {
+    "name": "Bolo de Fubá",
+    "description": "Bolo tradicional de fubá, macio e delicioso, perfeito para café da tarde.",
+    "prep_time": "45 minutos",
+    "servings": "8 Pessoas",
+    "ingredients": [
+      {"description": "200g de fubá"},
+      {"description": "200g de açúcar"},
+      {"description": "3 ovos"},
+      {"description": "100ml de leite"},
+      {"description": "1 colher de sopa de fermento em pó"}
+    ],
+    "steps": [
+      {"description": "Misture fubá, açúcar, ovos e leite até formar massa homogênea."},
+      {"description": "Acrescente fermento e despeje em forma untada."},
+      {"description": "Asse a 180°C por 35 minutos."}
+    ]
+  },
+  {
+    "name": "Frango Xadrez",
+    "description": "Frango com legumes refogado em molho agridoce típico da culinária chinesa.",
+    "prep_time": "35 minutos",
+    "servings": "3 Pessoas",
+    "ingredients": [
+      {"description": "300g de peito de frango em cubos"},
+      {"description": "1 pimentão vermelho picado"},
+      {"description": "1 pimentão verde picado"},
+      {"description": "1 cebola picada"},
+      {"description": "2 colheres de sopa de molho shoyu"},
+      {"description": "1 colher de sopa de amido de milho"}
+    ],
+    "steps": [
+      {"description": "Refogue o frango até dourar."},
+      {"description": "Adicione os legumes e refogue por 5 minutos."},
+      {"description": "Misture o molho shoyu e o amido dissolvido, cozinhe até engrossar."}
+    ]
+  },
+  {
+    "name": "Salada de Quinoa",
+    "description": "Salada nutritiva com quinoa, legumes e temperos leves.",
+    "prep_time": "20 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "100g de quinoa"},
+      {"description": "1 tomate picado"},
+      {"description": "1 pepino picado"},
+      {"description": "50g de milho"},
+      {"description": "Azeite e limão a gosto"}
+    ],
+    "steps": [
+      {"description": "Cozinhe a quinoa conforme instruções da embalagem."},
+      {"description": "Misture todos os ingredientes e tempere com azeite e limão."},
+      {"description": "Sirva fria ou em temperatura ambiente."}
+    ]
+  },
+  {
+    "name": "Panqueca de Espinafre e Ricota",
+    "description": "Panquecas verdes recheadas com ricota e espinafre.",
+    "prep_time": "40 minutos",
+    "servings": "3 Pessoas",
+    "ingredients": [
+      {"description": "200g de farinha de trigo"},
+      {"description": "2 ovos"},
+      {"description": "200ml de leite"},
+      {"description": "150g de espinafre cozido e picado"},
+      {"description": "100g de ricota"}
+    ],
+    "steps": [
+      {"description": "Misture a farinha, ovos e leite para a massa."},
+      {"description": "Cozinhe os crepes na frigideira."},
+      {"description": "Recheie com espinafre e ricota e dobre."}
+    ]
+  },
+  {
+    "name": "Camarão na Moranga",
+    "description": "Camarão cremoso servido dentro de uma moranga assada.",
+    "prep_time": "60 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "1 moranga média"},
+      {"description": "300g de camarão limpo"},
+      {"description": "200ml de creme de leite"},
+      {"description": "1 cebola picada"},
+      {"description": "Azeite a gosto"}
+    ],
+    "steps": [
+      {"description": "Asse a moranga até ficar macia."},
+      {"description": "Refogue camarões com cebola e azeite, acrescente creme de leite."},
+      {"description": "Coloque o recheio dentro da moranga e sirva."}
+    ]
+  },
+  {
+    "name": "Filé de Peixe ao Forno",
+    "description": "Filé de peixe assado com temperos e azeite, acompanhado de legumes.",
+    "prep_time": "40 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "2 filés de peixe"},
+      {"description": "1 colher de sopa de azeite"},
+      {"description": "Sal e pimenta a gosto"},
+      {"description": "Legumes variados a gosto"}
+    ],
+    "steps": [
+      {"description": "Tempere os filés com sal e pimenta."},
+      {"description": "Disponha em assadeira com legumes e regue com azeite."},
+      {"description": "Asse a 180°C por 25 minutos e sirva quente."}
+    ]
+  },
+  {
+    "name": "Cuscuz Nordestino com Coco",
+    "description": "Cuscuz doce típico nordestino, servido com coco ralado.",
+    "prep_time": "25 minutos",
+    "servings": "3 Pessoas",
+    "ingredients": [
+      {"description": "200g de flocos de milho"},
+      {"description": "100ml de água"},
+      {"description": "50g de coco ralado"},
+      {"description": "2 colheres de sopa de açúcar"}
+    ],
+    "steps": [
+      {"description": "Misture os flocos de milho com água e açúcar."},
+      {"description": "Cozinhe no cuscuzeiro por 15 minutos."},
+      {"description": "Polvilhe coco ralado antes de servir."}
+    ]
+  },
+  {
+    "name": "Frango Assado com Alecrim",
+    "description": "Frango inteiro assado com alecrim e temperos, sabor aromático.",
+    "prep_time": "90 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "1 frango inteiro"},
+      {"description": "2 ramos de alecrim"},
+      {"description": "3 dentes de alho"},
+      {"description": "Sal, pimenta e azeite a gosto"}
+    ],
+    "steps": [
+      {"description": "Tempere o frango com sal, pimenta, alho e alecrim."},
+      {"description": "Asse a 200°C por 1 hora ou até dourar."},
+      {"description": "Sirva com batatas ou arroz."}
+    ]
+  },
+  {
+    "name": "Quiche de Frango",
+    "description": "Quiche salgada com recheio de frango, ovos e creme de leite.",
+    "prep_time": "50 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "1 massa para torta"},
+      {"description": "200g de frango cozido e desfiado"},
+      {"description": "3 ovos"},
+      {"description": "200ml de creme de leite"},
+      {"description": "100g de queijo ralado"}
+    ],
+    "steps": [
+      {"description": "Misture o frango, ovos, creme de leite e queijo."},
+      {"description": "Coloque na massa e asse a 180°C por 30 minutos."},
+      {"description": "Sirva morna ou fria."}
+    ]
+  },
+  {
+    "name": "Macarrão com Molho de Alho e Azeite",
+    "description": "Massa simples refogada com alho e azeite, sabor delicado e rápido.",
+    "prep_time": "20 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "200g de macarrão"},
+      {"description": "2 dentes de alho picados"},
+      {"description": "3 colheres de sopa de azeite"},
+      {"description": "Sal e pimenta a gosto"},
+      {"description": "Salsinha picada a gosto"}
+    ],
+    "steps": [
+      {"description": "Cozinhe o macarrão conforme instruções da embalagem."},
+      {"description": "Refogue alho no azeite e adicione o macarrão."},
+      {"description": "Misture bem, tempere e finalize com salsinha."}
+    ]
+  },
+  {
+    "name": "Bolo de Maçã",
+    "description": "Bolo fofinho com pedaços de maçã, ideal para café da tarde.",
+    "prep_time": "50 minutos",
+    "servings": "8 Pessoas",
+    "ingredients": [
+      {"description": "3 maçãs picadas"},
+      {"description": "3 ovos"},
+      {"description": "200g de açúcar"},
+      {"description": "200g de farinha de trigo"},
+      {"description": "1 colher de sopa de fermento em pó"}
+    ],
+    "steps": [
+      {"description": "Misture ovos e açúcar, adicione farinha e fermento."},
+      {"description": "Acrescente as maçãs picadas e misture delicadamente."},
+      {"description": "Asse a 180°C por 35 minutos."}
+    ]
+  },
+  {
+    "name": "Espaguete com Almôndegas",
+    "description": "Massa italiana servida com almôndegas de carne e molho de tomate.",
+    "prep_time": "50 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "300g de espaguete"},
+      {"description": "400g de carne moída"},
+      {"description": "1 ovo"},
+      {"description": "2 colheres de sopa de farinha de rosca"},
+      {"description": "300ml de molho de tomate"},
+      {"description": "Sal e pimenta a gosto"}
+    ],
+    "steps": [
+      {"description": "Misture carne, ovo e farinha de rosca, forme almôndegas."},
+      {"description": "Frite as almôndegas até dourar e cozinhe no molho de tomate."},
+      {"description": "Cozinhe o espaguete e sirva com o molho e as almôndegas."}
+    ]
+  },
+  {
+    "name": "Torta de Limão",
+    "description": "Torta doce com base crocante e creme azedinho de limão.",
+    "prep_time": "45 minutos",
+    "servings": "6 Pessoas",
+    "ingredients": [
+      {"description": "200g de biscoito triturado"},
+      {"description": "100g de manteiga"},
+      {"description": "3 ovos"},
+      {"description": "200g de açúcar"},
+      {"description": "Suco de 3 limões"},
+      {"description": "Raspas de limão para decorar"}
+    ],
+    "steps": [
+      {"description": "Misture biscoito com manteiga e forre a forma."},
+      {"description": "Bata ovos, açúcar e suco de limão até formar creme."},
+      {"description": "Despeje sobre a base, asse por 20 minutos e decore com raspas de limão."}
+    ]
+  },
+  {
+    "name": "Panqueca de Chocolate",
+    "description": "Panquecas doces recheadas com chocolate, rápida e deliciosa.",
+    "prep_time": "25 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "100g de farinha de trigo"},
+      {"description": "1 ovo"},
+      {"description": "100ml de leite"},
+      {"description": "50g de chocolate em pó"},
+      {"description": "Chocolate derretido para recheio"}
+    ],
+    "steps": [
+      {"description": "Misture farinha, ovo, leite e chocolate em pó."},
+      {"description": "Cozinhe na frigideira formando panquecas."},
+      {"description": "Recheie com chocolate derretido e dobre."}
+    ]
+  },
+  {
+    "name": "Frango à Parmegiana",
+    "description": "Peito de frango empanado, coberto com molho de tomate e queijo gratinado.",
+    "prep_time": "50 minutos",
+    "servings": "3 Pessoas",
+    "ingredients": [
+      {"description": "3 peitos de frango"},
+      {"description": "2 ovos"},
+      {"description": "50g de farinha de trigo"},
+      {"description": "50g de farinha de rosca"},
+      {"description": "200ml de molho de tomate"},
+      {"description": "150g de queijo mussarela"}
+    ],
+    "steps": [
+      {"description": "Empane os peitos de frango passando na farinha, ovos e farinha de rosca."},
+      {"description": "Frite até dourar, coloque em refratário, cubra com molho e queijo."},
+      {"description": "Leve ao forno a 180°C por 15 minutos para gratinar."}
+    ]
+  },
+  {
+    "name": "Arroz à Piamontese",
+    "description": "Arroz cremoso com champignon e molho branco, acompanhamento saboroso.",
+    "prep_time": "35 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "200g de arroz"},
+      {"description": "100g de champignon fatiado"},
+      {"description": "200ml de creme de leite"},
+      {"description": "1 colher de sopa de manteiga"},
+      {"description": "Sal e pimenta a gosto"}
+    ],
+    "steps": [
+      {"description": "Cozinhe o arroz normalmente."},
+      {"description": "Refogue champignon na manteiga, acrescente creme de leite."},
+      {"description": "Misture ao arroz cozido e ajuste temperos."}
+    ]
+  },
+  {
+    "name": "Sopa de Frango com Legumes",
+    "description": "Sopa nutritiva com frango desfiado e legumes variados.",
+    "prep_time": "40 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "300g de frango cozido e desfiado"},
+      {"description": "2 cenouras picadas"},
+      {"description": "2 batatas picadas"},
+      {"description": "1 cebola picada"},
+      {"description": "1 litro de água"}
+    ],
+    "steps": [
+      {"description": "Refogue a cebola, acrescente frango e legumes."},
+      {"description": "Adicione água e cozinhe até os legumes ficarem macios."},
+      {"description": "Tempere com sal e pimenta a gosto."}
+    ]
+  },
+  {
+    "name": "Quibe Frito",
+    "description": "Quibe crocante por fora e macio por dentro, feito com carne e trigo para quibe.",
+    "prep_time": "40 minutos",
+    "servings": "4 Pessoas",
+    "ingredients": [
+      {"description": "250g de carne moída"},
+      {"description": "150g de trigo para quibe"},
+      {"description": "1 cebola picada"},
+      {"description": "Salsinha a gosto"},
+      {"description": "Óleo para fritar"}
+    ],
+    "steps": [
+      {"description": "Hidrate o trigo e misture com carne, cebola e salsinha."},
+      {"description": "Modele os quibes e frite em óleo quente até dourar."},
+      {"description": "Escorra e sirva quente."}
+    ]
+  },
+  {
+    "name": "Espaguete ao Molho Branco",
+    "description": "Massa italiana com molho cremoso de queijo e leite.",
+    "prep_time": "25 minutos",
+    "servings": "2 Pessoas",
+    "ingredients": [
+      {"description": "200g de espaguete"},
+      {"description": "200ml de leite"},
+      {"description": "50g de queijo parmesão ralado"},
+      {"description": "1 colher de sopa de manteiga"},
+      {"description": "Sal e pimenta a gosto"}
+    ],
+    "steps": [
+      {"description": "Cozinhe o espaguete conforme instruções da embalagem."},
+      {"description": "Aqueça manteiga, acrescente leite e queijo até formar molho cremoso."},
+      {"description": "Misture ao espaguete e sirva."}
+    ]
+  },
+  {
+    "name": "Bolo de Laranja",
+    "description": "Bolo macio e aromático com suco e raspas de laranja.",
+    "prep_time": "50 minutos",
+    "servings": "8 Pessoas",
+    "ingredients": [
+      {"description": "3 ovos"},
+      {"description": "200g de açúcar"},
+      {"description": "200g de farinha de trigo"},
+      {"description": "Suco de 2 laranjas"},
+      {"description": "Raspas de 1 laranja"},
+      {"description": "1 colher de sopa de fermento em pó"}
+    ],
+    "steps": [
+      {"description": "Misture ovos e açúcar até obter creme."},
+      {"description": "Adicione farinha, suco, raspas e fermento."},
+      {"description": "Despeje em forma untada e asse a 180°C por 35 minutos."}
+    ]
+  },
+  {
+    "name": "Panqueca de Frango com Catupiry",
+    "description": "Panquecas recheadas com frango desfiado e requeijão cremoso.",
+    "prep_time": "40 minutos",
+    "servings": "3 Pessoas",
+    "ingredients": [
+      {"description": "200g de farinha de trigo"},
+      {"description": "2 ovos"},
+      {"description": "200ml de leite"},
+      {"description": "300g de frango cozido e desfiado"},
+      {"description": "100g de catupiry"}
+    ],
+    "steps": [
+      {"description": "Prepare a massa misturando farinha, ovos e leite."},
+      {"description": "Cozinhe os crepes na frigideira."},
+      {"description": "Recheie com frango e catupiry, dobre e sirva."}
+    ]
+  }
+]
