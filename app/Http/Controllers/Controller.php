@@ -7,6 +7,11 @@ use Illuminate\Http\Response;
 
 abstract class Controller
 {
+    public function messageResponse(string $message, int $code = Response::HTTP_OK): JsonResponse
+    {
+        return $this->successResponse($code, [ 'message' => $message ]);
+    }
+
     public function successResponse(int $code, $data = null): JsonResponse
     {
         return response()->json($data, $code);
@@ -15,6 +20,11 @@ abstract class Controller
     public function okResponse($data = null): JsonResponse
     {
         return $this->successResponse(Response::HTTP_OK, $data);
+    }
+
+    public function createdResponse($data = null): JsonResponse
+    {
+        return $this->successResponse(Response::HTTP_CREATED, $data);
     }
 
     public function errorResponse(int $code, string $message): JsonResponse
