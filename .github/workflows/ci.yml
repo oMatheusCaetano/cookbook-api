@@ -16,6 +16,12 @@ jobs:
           coverage: xdebug
       - name: Install dependencies with composer
         run: composer update --no-ansi --no-interaction --no-progress
+      - name: Debug workspace
+        run: |
+          echo "PWD: $(pwd)"
+          ls -la
+          echo "ls tests:"
+          ls -la tests || true
       - name: Run tests with phpunit
         run: php artisan test --coverage-clover=coverage.xml
       - name: SonarQube Scan
