@@ -9,16 +9,30 @@ use Tests\TestCase;
 
 class FindUserTest extends TestCase
 {
-    public function makeRequest(int $id): \Illuminate\Testing\TestResponse
+    public function makeRequest(int $id, $authenticated = true): \Illuminate\Testing\TestResponse
     {
-        return $this->get("/api/user/{$id}", [
-            'Accept' => 'application/json',
-        ]);
+        $headers = ['Accept' => 'application/json'];
+        if ($authenticated) {
+            $user = User::first();
+            $headers['Authorization'] = 'Bearer ' . $user->createToken($user->email)->plainTextToken;
+        }
+        return $this->get("/api/user/{$id}", $headers);
+    }
+
+    public function setUp(): void
+    {
+        parent::setUp();
+        Artisan::call('migrate:fresh');
+    }
+
+    public function test_should_require_authentication(): void
+    {
+        $response = $this->makeRequest(1, false);
+        $response->assertStatus(Response::HTTP_UNAUTHORIZED);
     }
 
     public function test_should_return_404_on_invalid_id(): void
     {
-        Artisan::call('migrate:fresh');
         $response = $this->makeRequest(1234567890);
         $response->assertStatus(Response::HTTP_NOT_FOUND);
         $response->assertJsonFragment([ 'message' => 'Usuário não encontrado' ]);
@@ -26,7 +40,6 @@ class FindUserTest extends TestCase
 
     public function test_should_return_200_on_valid_id(): void
     {
-        Artisan::call('migrate:fresh');
         $user = User::find(1);
         $response = $this->makeRequest(1);
         $response->assertStatus(Response::HTTP_OK);
