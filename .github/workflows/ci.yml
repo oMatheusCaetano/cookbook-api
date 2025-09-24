@@ -16,21 +16,8 @@ jobs:
           coverage: xdebug
       - name: Install dependencies with composer
         run: composer update --no-ansi --no-interaction --no-progress
-      - name: Run tests with phpunit/phpunit
+      - name: Run tests with phpunit
         run: vendor/bin/phpunit --coverage-clover=coverage.xml
-      - name: SonarQube Scan
-        uses: SonarSource/sonarqube-scan-action@v5
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-  sonarqube:
-    name: SonarQube
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v6
         env:
