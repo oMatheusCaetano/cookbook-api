@@ -4,9 +4,6 @@ jobs:
   tests:
     name: Tests
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: /home/runner/work/cookbook-api
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
