@@ -26,4 +26,9 @@ abstract class Controller
     {
         return $this->errorResponse(Response::HTTP_UNAUTHORIZED, 'Credenciais inválidas');
     }
+
+    public function notFoundResponse(string $message = 'Recurso não encontrado'): JsonResponse
+    {
+        return $this->errorResponse(Response::HTTP_NOT_FOUND, $message);
+    }
 }
