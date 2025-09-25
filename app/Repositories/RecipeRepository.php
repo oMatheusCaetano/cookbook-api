@@ -15,14 +15,14 @@ class RecipeRepository
     )
     {
         return Recipe
-            ::with($with)
+            ::with($with ?? [])
             ->orderBy('id', 'desc')
             ->paginate(perPage: $perPage, page: $page);
     }
 
     public function find(int $id, $with = []): ?Recipe
     {
-        return Recipe::with($with)->find($id);
+        return Recipe::with($with ?? [])->find($id);
     }
 
     public function delete(int $id): void
