@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1758766490">
-  <project timestamp="1758766490" name="Clover Coverage">
+<coverage generated="1758769970">
+  <project timestamp="1758769970" name="Clover Coverage">
     <package name="App\Http\Controllers">
       <file name="/var/www/html/app/Http/Controllers/AuthController.php">
         <class name="App\Http\Controllers\AuthController" namespace="App\Http\Controllers">
