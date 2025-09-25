@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1758762912">
-  <project timestamp="1758762912" name="Clover Coverage">
+<coverage generated="1758763341">
+  <project timestamp="1758763341" name="Clover Coverage">
     <package name="App\Http\Controllers">
       <file name="/var/www/html/app/Http/Controllers/AuthController.php">
         <class name="App\Http\Controllers\AuthController" namespace="App\Http\Controllers">
@@ -39,7 +39,7 @@
       </file>
       <file name="/var/www/html/app/Http/Controllers/RecipeController.php">
         <class name="App\Http\Controllers\RecipeController" namespace="App\Http\Controllers">
-          <metrics complexity="9" methods="7" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="22" elements="30" coveredelements="28"/>
+          <metrics complexity="9" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="23" elements="30" coveredelements="30"/>
         </class>
         <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="7"/>
         <line num="15" type="stmt" count="7"/>
@@ -66,12 +66,12 @@
         <line num="51" type="method" name="destroy" visibility="public" complexity="1" crap="1" count="2"/>
         <line num="53" type="stmt" count="2"/>
         <line num="54" type="stmt" count="1"/>
-        <line num="57" type="method" name="withes" visibility="private" complexity="2" crap="2.06" count="3"/>
+        <line num="57" type="method" name="withes" visibility="private" complexity="2" crap="2" count="3"/>
         <line num="59" type="stmt" count="3"/>
         <line num="61" type="stmt" count="3"/>
-        <line num="62" type="stmt" count="3"/>
-        <line num="65" type="stmt" count="0"/>
-        <metrics loc="68" ncloc="68" classes="1" methods="7" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="22" elements="30" coveredelements="28"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="65" type="stmt" count="2"/>
+        <metrics loc="68" ncloc="68" classes="1" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="23" elements="30" coveredelements="30"/>
       </file>
       <file name="/var/www/html/app/Http/Controllers/UserController.php">
         <class name="App\Http\Controllers\UserController" namespace="App\Http\Controllers">
@@ -145,15 +145,15 @@
     <package name="App\Models">
       <file name="/var/www/html/app/Models/Recipe.php">
         <class name="App\Models\Recipe" namespace="App\Models">
-          <metrics complexity="3" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="6" coveredelements="4"/>
+          <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
         </class>
-        <line num="18" type="method" name="user" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="20" type="stmt" count="0"/>
-        <line num="23" type="method" name="steps" visibility="public" complexity="1" crap="1" count="8"/>
-        <line num="25" type="stmt" count="8"/>
-        <line num="28" type="method" name="ingredients" visibility="public" complexity="1" crap="1" count="8"/>
-        <line num="30" type="stmt" count="8"/>
-        <metrics loc="33" ncloc="33" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="6" coveredelements="4"/>
+        <line num="17" type="method" name="user" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <line num="22" type="method" name="steps" visibility="public" complexity="1" crap="1" count="8"/>
+        <line num="24" type="stmt" count="8"/>
+        <line num="27" type="method" name="ingredients" visibility="public" complexity="1" crap="1" count="8"/>
+        <line num="29" type="stmt" count="8"/>
+        <metrics loc="32" ncloc="32" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
       </file>
       <file name="/var/www/html/app/Models/RecipeIngredient.php">
         <class name="App\Models\RecipeIngredient" namespace="App\Models">
@@ -163,28 +163,22 @@
       </file>
       <file name="/var/www/html/app/Models/RecipeStep.php">
         <class name="App\Models\RecipeStep" namespace="App\Models">
-          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
-        <line num="14" type="method" name="recipe" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="16" type="stmt" count="0"/>
-        <line num="19" type="method" name="ingredients" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="21" type="stmt" count="0"/>
-        <metrics loc="24" ncloc="24" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+        <metrics loc="14" ncloc="14" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
       <file name="/var/www/html/app/Models/User.php">
         <class name="App\Models\User" namespace="App\Models">
-          <metrics complexity="3" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="9" coveredelements="7"/>
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
         </class>
         <line num="25" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="20"/>
         <line num="27" type="stmt" count="20"/>
         <line num="28" type="stmt" count="20"/>
         <line num="29" type="stmt" count="20"/>
         <line num="30" type="stmt" count="20"/>
-        <line num="33" type="method" name="recipes" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="35" type="stmt" count="0"/>
-        <line num="38" type="method" name="findByEmail" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="40" type="stmt" count="2"/>
-        <metrics loc="43" ncloc="43" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="9" coveredelements="7"/>
+        <line num="33" type="method" name="findByEmail" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="35" type="stmt" count="2"/>
+        <metrics loc="38" ncloc="38" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
       </file>
     </package>
     <package name="App\Providers">
@@ -246,6 +240,6 @@
         <metrics loc="79" ncloc="79" classes="1" methods="7" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="32" coveredstatements="31" elements="39" coveredelements="37"/>
       </file>
     </package>
-    <metrics files="14" loc="459" ncloc="451" classes="13" methods="39" coveredmethods="31" conditionals="0" coveredconditionals="0" statements="112" coveredstatements="95" elements="151" coveredelements="126"/>
+    <metrics files="14" loc="443" ncloc="435" classes="12" methods="36" coveredmethods="33" conditionals="0" coveredconditionals="0" statements="109" coveredstatements="97" elements="145" coveredelements="130"/>
   </project>
 </coverage>
