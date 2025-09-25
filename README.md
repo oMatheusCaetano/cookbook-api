@@ -10,7 +10,7 @@ This project uses [Docker](https://www.docker.com/) to run the application based
 
 ### Start up the docker containers
 ```
-docker compose up
+chmod +x entrypoint.sh && docker compose up
 ```
 
 <br /><br />
