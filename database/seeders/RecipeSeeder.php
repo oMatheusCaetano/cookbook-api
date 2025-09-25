@@ -17,6 +17,7 @@ class RecipeSeeder extends Seeder
 
         foreach ($recipesJson as $recipeData) {
             $recipe = Recipe::create([
+                'user_id'     => 1,
                 'name'        => $recipeData['name'],
                 'description' => $recipeData['description'],
                 'prep_time'   => $recipeData['prep_time'],
