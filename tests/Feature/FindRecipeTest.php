@@ -23,7 +23,7 @@ class FindRecipeTest extends TestCase
             $user = User::first();
             $headers['Authorization'] = 'Bearer ' . $user->createToken($user->email)->plainTextToken;
         }
-        return $this->get("/api/recipe/{$id}", $headers);
+        return $this->get("/api/recipe/{$id}?with=user,ingredients,steps", $headers);
     }
 
     public function test_should_require_authentication(): void

@@ -3,6 +3,7 @@
 namespace App\Repositories;
 
 use App\Models\Recipe;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
 class RecipeRepository
@@ -10,14 +11,18 @@ class RecipeRepository
     public function paginate(
         int $perPage = 15,
         int $page = 1,
+        $with = []
     )
     {
-        return Recipe::paginate(perPage: $perPage, page: $page);
+        return Recipe
+            ::with($with ?? [])
+            ->orderBy('id', 'desc')
+            ->paginate(perPage: $perPage, page: $page);
     }
 
-    public function find(int $id): ?Recipe
+    public function find(int $id, $with = []): ?Recipe
     {
-        return Recipe::find($id);
+        return Recipe::with($with ?? [])->find($id);
     }
 
     public function delete(int $id): void
@@ -33,6 +38,7 @@ class RecipeRepository
     public function create(array $data): Recipe
     {
         return DB::transaction(function () use ($data) {
+            $data['user_id'] = Auth::id();
             $recipe = Recipe::create($data);
             $this->syncRelations($recipe, $data);
             return $recipe;

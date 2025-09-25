@@ -10,14 +10,4 @@ class RecipeStep extends Model
         'description',
         'recipe_id',
     ];
-
-    public function recipe()
-    {
-        return $this->belongsTo(Recipe::class);
-    }
-
-    public function ingredients()
-    {
-        return $this->hasMany(RecipeIngredient::class);
-    }
 }

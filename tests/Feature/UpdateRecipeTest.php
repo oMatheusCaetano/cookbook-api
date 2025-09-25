@@ -36,6 +36,7 @@ class UpdateRecipeTest extends TestCase
     {
         $expected = json_decode(file_get_contents(database_path('recipes.json')), true)[0];
         $newName = 'Updated Recipe Name';
+        $expected['user_id'] = 1;
         $recipe = Recipe::create($expected);
 
         $response = $this->makeRequest($recipe->id, array_merge($expected, ['name' => $newName]));

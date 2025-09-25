@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\LoginRequest;
 use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller
@@ -18,5 +19,12 @@ class AuthController extends Controller
 
         $token = $user->createToken($user->email);
         return $this->okResponse([ 'user' => $user, 'token' => $token->plainTextToken ]);
+    }
+
+    public function logout()
+    {
+
+        Auth::user()->tokens()->forceDelete();
+        return $this->okResponse(['message' => 'Logged out successfully']);
     }
 }

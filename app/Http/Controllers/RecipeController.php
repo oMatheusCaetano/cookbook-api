@@ -19,15 +19,16 @@ class RecipeController extends Controller
     {
 
         $recipes = $this->repository->paginate(
-            $request->query('per_page', 15),
-            $request->query('page', 1)
+            perPage: $request->query('per_page', 15),
+            page: $request->query('page', 1),
+            with: $this->withes()
         );
         return $this->okResponse($recipes);
     }
 
-    public function show(int $id)
+    public function show(int $id, Request $request)
     {
-        $recipe = $this->repository->find($id);
+        $recipe = $this->repository->find(id: $id, with: $this->withes());
         return $recipe
             ? $this->okResponse($recipe)
             : $this->notFoundResponse('Receita não encontrada');
@@ -51,5 +52,16 @@ class RecipeController extends Controller
     {
         $this->repository->delete($id);
         return $this->messageResponse('Receita deletada com sucesso!');
+    }
+
+    private function withes()
+    {
+        $whites = request()->query('with', null);
+
+        if (!$whites) {
+            return null;
+        }
+
+        return explode(',', $whites) ?? null;
     }
 }
