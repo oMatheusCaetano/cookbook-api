@@ -23,6 +23,7 @@ class CreateUserTest extends TestCase
             'name' => 'New User',
             'email' => $existingUser->email,
             'password' => 'password123',
+            'password_confirmation' => 'password123',
         ];
         $response = $this->makeRequest($data);
         $response->assertStatus(Response::HTTP_UNPROCESSABLE_ENTITY);
@@ -36,6 +37,7 @@ class CreateUserTest extends TestCase
             'name' => 'New User',
             'email' => 'newuser@email.com',
             'password' => 'password123',
+            'password_confirmation' => 'password123',
         ];
         $response = $this->makeRequest($data);
         $response->assertStatus(Response::HTTP_CREATED);
